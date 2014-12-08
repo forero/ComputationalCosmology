@@ -1,0 +1,3 @@
+sudo apt-get install emacs
+sudo apt-get install ipython-notebook
+sudo apt-get install python-matplotlib
