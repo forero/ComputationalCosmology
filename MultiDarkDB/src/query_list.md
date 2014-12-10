@@ -16,7 +16,9 @@ Query 3
 with my_halo as (
    select x,y,z from miniMDR1..FOF where snapnum=85 and fofId=85000004639
 )
+
 select f.* from my_halo mh, miniMDR1..FOF f 
+
 where f.snapnum = 85
  and  f.x between (mh.x - 3) and (mh.x + 3)
  and  f.y between (mh.y - 3) and (mh.y + 3)
